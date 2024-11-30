@@ -21,5 +21,14 @@ public class CheckPalindromeNumber {
 			return false;
 		}
 	}
+	
+	private static boolean isPalinDromeString(String name) {
+		int left = 0;
+		int right = name.length()-1;
+		
+		while(left>right) {
+			if(name.charAt(left))
+		}
+	}
 
 }
